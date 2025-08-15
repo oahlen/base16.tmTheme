@@ -145,11 +145,22 @@
                 <key>name</key>
                 <string>Functions</string>
                 <key>scope</key>
-                <string>entity.name.function, support.function</string>
+                <string>entity.name.function, variable.function, support.function</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#04000000</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Parameters</string>
+                <key>scope</key>
+                <string>variable.parameter</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#03000000</string>
                 </dict>
             </dict>
             <dict>
